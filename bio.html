@@ -188,7 +188,7 @@
     }
 </script>
     
-    <?php
+    <php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = strip_tags(trim($_POST["nama"]));
     $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
