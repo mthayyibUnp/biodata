@@ -182,6 +182,12 @@
         }
     </script>
     
+    <script type="text/javascript">
+    function kirimPesan() {
+        alert('Pesan berhasil dikirim!');
+    }
+</script>
+    
     <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = strip_tags(trim($_POST["nama"]));
